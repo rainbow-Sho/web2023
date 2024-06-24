@@ -17,11 +17,17 @@ content="width=device-width, initial-scale=1.0">
     <div>
         <h1>第9回</h1>
     </div>
-    <div>
+    <div class="question">
         <h2>確認1</h2>
         <p>暗号化に関する用語「平文」の読み方をひらがな4文字で答えよ。</p>
         <button onclick="toggleAnswer('answer1')">答えを見る</button>
         <p id="answer1" class="answer">ひらぶん</p>
+    </div>
+    <div class="question>
+        <h2>確認2</h2>
+        <p>暗号化と復号化の処理が(相対的に)高速であるのは「公開鍵暗号方式」と「共通鍵暗号方式」のどちらか答えよ。</p>
+        <button onclick="toggleAnswer('answer2')">答えを見る</button>
+        <p id="answer2" class="answer">共通鍵暗号方式</p>
     </div>
     <script>function toggleAnswer(id) {
     var answer = document.getElementById(id);
