@@ -48,6 +48,12 @@ content="width=device-width, initial-scale=1.0">
         <button onclick="toggleAnswer('answer5')">答えを見る</button>
         <p id="answer5" class="answer">正しい</p>
     </div>
+    <div class="question">
+        <h2>確認6</h2>
+        <p>公開鍵暗号を使ってFrankからEllenに向けて暗号化した情報(暗号文)を送信したい。このケースにおいて、公開鍵と秘密鍵のペアを生成し、相手に公開鍵を渡す必要があるのは「Ellen」と「Frank」のどちらか答えよ。</p>
+        <button onclick="toggleAnswer('answer6')">答えを見る</button>
+        <p id="answer6" class="answer">Ellen</p>
+    </div>
     <script>function toggleAnswer(id) {
     var answer = document.getElementById(id);
     if (answer.style.display === "none"){
