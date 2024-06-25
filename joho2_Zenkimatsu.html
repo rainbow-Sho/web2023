@@ -59,14 +59,15 @@ content="width=device-width, initial-scale=1.0">
         <p>公開鍵暗号を使ってAliceとBobで相互に暗号文のやり取りを行っている。このときBobの不注意によって「Bobの秘密鍵」がMalloryに盗まれてしまった。「Bobの秘密鍵」によってMalloryが復号化できるのは、次のうちどれか答えよ。</p>
         <p>①Bobに送信するためにAliceが作成した暗号文</p>
         <p>②Aliceに送信するためにBobが作成した暗号文</p>
-        <p>①と②の両方</p>
+        <p>③①と②の両方</p>
         <button onclick="toggleAnswer('answer7')">答えを見る</button>
         <p id="answer7" class="answer">①Bobに送信するためにAliceが作成した暗号文</p>
     </div>
     <script>
         function toggleAnswer(id) {
-        var answer = document.getElementById(id);
-        if (answer.style.display == "none"){
+            var answer = 
+    document.getElementById(id);
+        if (answer.style.display === "none" || answer.style.display === ""){
         answer.style.display = "block";
         }else{
         answer.style.display="none";
