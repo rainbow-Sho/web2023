@@ -29,6 +29,13 @@ content="width=device-width, initial-scale=1.0">
         <button onclick="toggleAnswer('answer2')">答えを見る</button>
         <p id="answer2" class="answer">共通鍵暗号方式</p>
     </div>
+    <div class="question">
+       <h2>確認3</h2> 
+        <p>共通鍵暗号方式の別名として適切なものをすべて選んで答えよ。</p>
+        <p>①対称鍵暗号 ②非対称鍵暗号 ③秘密鍵暗号 ④公開鍵暗号 ⑤デジタル署名</p>
+        <button onclick="toggleAnswer('answer3')">答えを見る</button>
+        <p id="answer3" class="answer">①対称鍵暗号 ③秘密鍵暗号</p>
+    </div>
     <script>function toggleAnswer(id) {
     var answer = document.getElementById(id);
     if (answer.style.display === "none"){
