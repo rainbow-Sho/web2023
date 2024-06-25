@@ -67,12 +67,14 @@ content="width=device-width, initial-scale=1.0">
         <h2>確認8</h2>
         <p>Aliceは「秘密の情報」を作成し、それを「Bobの公開鍵」を使って暗号化した。このとき、暗号化した本人であるAliceは、暗号文を復号化することが「できる」か「できない」か答えよ。</p>
         <button onclick="toggleAnswer('answer8')">答えを見る</button>
-        <p id="answer8" class="amswer">できない</p>
+        <p id="answer8" class="answer">できない</p>
     </div>
     <div class="question">
         <h2>確認9</h2>
         <p>次の各文章について、公開鍵暗号(デジタル署名を含む)に関する適切な説明となるように下線部の誤りを修正せよ。</p>
         <p>①CharlieからEveに情報を送信したい。Charlieが自身のデジタル署名を作成したときに使用すべき鍵は<u>Eveの公開鍵</u>である。</p>
+        <button onclick="toggleAnswer('answer9')">答えを見る</button>
+        <p id="answer9" class="answer">「Charlieの秘密鍵」。デジタル署名を作成するときは、自分の秘密鍵を使用する。</p>
     </div>
     <script>
         function toggleAnswer(id) {
