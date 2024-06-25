@@ -75,6 +75,15 @@ content="width=device-width, initial-scale=1.0">
         <p>①CharlieからEveに情報を送信したい。Charlieが自身のデジタル署名を作成したときに使用すべき鍵は<u>Eveの公開鍵</u>である。</p>
         <button onclick="toggleAnswer('answer9')">答えを見る</button>
         <p id="answer9" class="answer">「Charlieの秘密鍵」。デジタル署名を作成するときは、自分の秘密鍵を使用する。</p>
+        <p>②CharlieからEveに届いた情報にデジタル署名がついていた。Eve側において、このデジタル署名がCharlieのものかを確認するために使用すべき鍵は<u>Eveの秘密鍵</u>である。</p>
+        <button onclick="toggleAnswer('answer10')">答えを見る</button>
+        <p id="answer10" class="answer">「Charlieの公開鍵」。</p>
+        <p>③<u>デジタル署名</u>を目的とした暗号化では、公開鍵を使って暗号化し、秘密鍵を使って復号化する。</p>
+        <button onclick="toggleAnswer('answer11')">答えを見る</button>
+        <p id="answer11" class="answer">「情報の秘匿」</p>
+        <p>④RSA暗号において<u>秘密鍵から公開鍵</u>を作成することは基本的にはできない。</p>
+        <button onclick="toggleAnswer('answer12')">答えを見る</button>
+        <P id="answer12" class="answer">「公開鍵から秘密鍵」。秘密鍵から公開鍵を作成することは簡単にできるが、その逆は困難になる。</P>
     </div>
     <script>
         function toggleAnswer(id) {
