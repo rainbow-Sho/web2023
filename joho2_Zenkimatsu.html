@@ -58,7 +58,9 @@ content="width=device-width, initial-scale=1.0">
         <h2>確認7</h2>
         <p>公開鍵暗号を使ってAliceとBobで相互に暗号文のやり取りを行っている。このときBobの不注意によって「Bobの秘密鍵」がMalloryに盗まれてしまった。「Bobの秘密鍵」によってMalloryが復号化できるのは、次のうち</p>
     </div>
-    <script>function toggleAnswer(id) {
+    <script>
+        answer.style.display="none";
+        function toggleAnswer(id) {
     var answer = document.getElementById(id);
     if (answer.style.display == "none"){
         answer.style.display = "block";
