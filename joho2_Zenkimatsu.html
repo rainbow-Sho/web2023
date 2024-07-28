@@ -88,9 +88,19 @@ content="width=device-width, initial-scale=1.0">
     <div class="question">
         <h2>確認10</h2>
         <p>Xさんは、Yさんにインターネットを使って電子メールを送ろうとしている。電子メールの内容を秘密にする必要があるので、公開鍵暗号方式を使って暗号化して送信したい。電子メールの内容を暗号化するのに使用する鍵はどれか。</p>
-        <p>ア:Xさんの公開鍵 イ:Xさんの秘密鍵 ウ</p>
+        <p>ア:Xさんの公開鍵 イ:Xさんの秘密鍵 ウ:Yさんの公開鍵 エ:Yさんの秘密鍵</p>
         <button onclick="toggleAnswer('answer13')">答えを見る</button>
-        <p id="answer13" class="answer"></p>
+        <p id="answer13" class="answer">ウ:Yさんの公開鍵</p>
+    </div>
+    <div class="question">
+        <h2>確認11</h2>
+        <p>文書の内容を秘匿して送受信する場合の公開鍵暗号方式における鍵と暗号化アルゴリズムの取扱いのうち、適切なものはどれか。</p>
+        <p>ア:暗号化鍵と復号鍵は公開するが，暗号化アルゴリズムは秘密にしなければならない。</p>
+        <p>イ:暗号化鍵は公開するが，復号鍵と暗号化アルゴリズムは秘密にしなければならない。</p>
+        <p>ウ:暗号化鍵と暗号化アルゴリズムは公開するが，復号鍵は秘密にしなければならない。</p>
+        <p>エ:復号鍵と暗号化アルゴリズムは公開するが，暗号化鍵は秘密にしなければならない。</p>
+        <button onclick="toggleAnswer('answer14')">答えを見る</button>
+        <p id="answer14" class="answer">ウ</p>
     </div>
     <script>
         function toggleAnswer(id) {
